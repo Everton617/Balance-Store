@@ -1,0 +1,48 @@
+@use 'variables'
+
+@media (max-width: variables.$mobile)
+    .container-logo 
+        padding-left: 10px
+    .navbar-container
+        height: 70px
+
+@media (max-width: variables.$tablet)
+    .container-logo 
+        padding-left: 10px
+    .navbar-container
+        height: 70px
+
+@media (max-width: variables.$desktop)
+    .area-img
+        flex-direction: column
+        height: 800px
+        .conteiner-title1
+            height: 800px
+        .conteiner-title2
+            height: 800px
+
+@media (max-width: variables.$mobile)
+    .features
+    h1
+        overflow-y: hidden
+
+    .area-features
+        display: flex
+        margin: auto
+        flex-direction: column
+        
+        .col-3
+            width: 400px
+            margin: auto
+            h2
+                overflow-y: hidden
+        .link-featurecards
+            margin-bottom: 40px
+            
+@media (max-width: variables.$mobile)
+    .cards-item
+        width: 220px
+
+@media (min-width: variables.$mobile) and (max-width: variables.$tablet)
+    .cards-item
+        width: 140px
