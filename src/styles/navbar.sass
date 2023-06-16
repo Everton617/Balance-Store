@@ -1,15 +1,18 @@
 @use 'variables'
 
-.basic-navbar-nav
-    background: white
+    
+#basic-navbar-nav
+    width: 1500px
+    overflow-x: hidden
 
 .navbar-container
     height: 60px
-    width: 100%
+    width: 100vw
     font-family: 'Karla'
     background: white
     position: fixed
     z-index: 2
+    margin: auto
 
 .container-logo
     padding-left: 200px
@@ -20,7 +23,14 @@
         font-weight: 500
 
 .navbar-links
+    width: 100%
     display: flex
-    margin: auto
     font-size: 17px
     background: #F8F9FA
+    margin: auto
+    
+
+.icon-menu
+    display: flex
+    justify-content: start
+       
