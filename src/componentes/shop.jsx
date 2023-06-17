@@ -14,7 +14,7 @@ export default function Shop(){
             <hr className='hr' />
             <div className="container Shop-content ">
             <h1>New in Shop</h1>
-                <div className="row">
+                <div className="row area-products">
                     <div className="col-sm cards-item">
                         <img className='img-fluid' src={Item1} alt="" />
                         <p>Bowery Chest Slash Sweatshirt</p>
